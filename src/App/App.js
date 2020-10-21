@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import fetcher from '../apiCalls/apiCalls.js';
+import {Reservations} from '../Reservations/Reservations.js';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +8,7 @@ class App extends Component {
     super()
 
     this.state = {
-      reservations: {}
+      reservations: []
   
     }
 
@@ -29,6 +30,7 @@ class App extends Component {
       <div className="App">
         <h1 className='app-title'>Turing Cafe Reservations</h1>
         <div className='resy-form'>
+          <Reservations reservations={this.state.reservations}/>
           
 
         </div>

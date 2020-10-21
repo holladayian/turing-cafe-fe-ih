@@ -1,0 +1,15 @@
+.reservations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 25px;
+
+}
+
+.reservation{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  font-size: 12
+}
