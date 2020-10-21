@@ -34,19 +34,19 @@ export class ResForm extends Component {
       <form>
         <label>
           Name:
-          <input type="text" name="name" onChange={this.updateChance}/>
+          <input title="name" type="text" name="name" onChange={this.updateChance}/>
         </label>
         <label>
           Date:
-          <input type="text" name="date" onChange={this.updateChance}/>
+          <input title="date" type="text" name="date" onChange={this.updateChance}/>
         </label>
         <label>
           Time:
-          <input type="text" name="time" onChange={this.updateChance}/>
+          <input title="time" type="text" name="time" onChange={this.updateChance}/>
         </label>
         <label>
           Guests:
-          <input type="text" name="number" onChange={this.updateChance}/>
+          <input title="number" type="text" name="number" onChange={this.updateChance}/>
         </label>
         <input 
         type="submit" 
