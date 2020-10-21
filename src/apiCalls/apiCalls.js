@@ -20,3 +20,5 @@ const fetcher = {
     .catch(err => console.log(err))
   }
 }
+
+export default fetcher;
